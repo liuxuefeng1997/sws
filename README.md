@@ -1,2 +1,2 @@
-# CWS
-简单的jsp模板实现
+# CWS Website
+简单的JSP模板实现
