@@ -182,6 +182,7 @@
                             let json_obj = JSON.parse(res);
                             if(json_obj.code === 1){
                                 alert("<%=lang.getJsonObject("tips").getString("success")%>");
+                                document.getElementById("contact_form").reset();
                             }else {
                                 alert("<%=lang.getJsonObject("tips").getString("failed")%>");
                             }
