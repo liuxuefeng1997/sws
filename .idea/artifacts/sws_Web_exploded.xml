@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sws:Web exploded">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sws/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sws" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="tomcat-api" />
+          <element id="library" level="project" name="annotations-api" />
+          <element id="library" level="project" name="jaspic-api" />
+          <element id="library" level="project" name="el-api" />
+          <element id="library" level="project" name="javax.json.api" />
+          <element id="library" level="project" name="glassfish.javax.json" />
+          <element id="library" level="project" name="jsp-api" />
+          <element id="library" level="project" name="servlet-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/index.html" value="file://$PROJECT_DIR$" />
+        <entry key="file://$PROJECT_DIR$/temple/brands.jsp" value="file://$PROJECT_DIR$/temple" />
+        <entry key="file://$PROJECT_DIR$/temple/home.jsp" value="file://$PROJECT_DIR$/temple" />
+        <entry key="file://$PROJECT_DIR$/www/i18n.jsp" value="file://$PROJECT_DIR$/www" />
+        <entry key="file://$PROJECT_DIR$/www/index.jsp" value="file://$PROJECT_DIR$/www" />
+      </map>
+    </option>
+  </component>
+</project>

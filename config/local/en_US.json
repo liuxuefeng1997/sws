@@ -1,0 +1,119 @@
+{
+    "_self": "en_US",
+    "data": {
+        "header": {
+            "title": "Schwarz Trading (Shanghai) Co., LTD",
+            "search":"Search",
+            "menu":"Menu",
+            "about_us":"About Us",
+            "our_brands":"Portfolio",
+            "wine":"Wine",
+            "liquor":"Spirits",
+            "drinks":"Water",
+            "details":"Learn More>",
+            "our_service":"Our Services",
+            "online_shop":"Online Stores",
+            "jd_shop":"JD stores",
+            "shop_details": "Visit store>",
+            "tm_shop":"Tmall stores",
+            "news_center":"News Center",
+            "concat_us":"Contact Us",
+            "keyword": "Keyword"
+        },
+        "footer": {
+            "our_brands":"Portfolio",
+            "our_service":"Our Services",
+            "trends":"About Us",
+            "social_responsibility":"News Center",
+            "copyright":"2021 Copyright CWS",
+            "information":"Information",
+            "privacy_policy":"Privacy policy",
+            "terms_service":"Terms of service",
+            "contact":"Contact"
+        },
+        "home": {
+            "years": " Years",
+            "in_china": "In China",
+            "brands": "Brands",
+            "products": "Products",
+            "news": "News",
+            "news_c": "Deliver the latest brand information and news, such as event information and new product information",
+            "read_more": "Read More",
+            "portfolio": "Portfolio",
+            "portfolio_c": "In the world carefully selected high quality, good reputation, is committed to creating a first-class brand in the Chinese market",
+            "wine":"Wine",
+            "liquor":"Spirits",
+            "drinks":"Water"
+        },
+        "about": {
+            "title": "ABOUT US",
+            "title_c": "With 15 years of experience, we have 150 brands and more than 1000 products worldwide",
+            "card_fir_title": " 20 years of experience",
+            "card_fir_text": "Schwarz Trading (Shanghai) Co., LTD (CWS) is a subsidiary of the ELAN Group. The ELAN Group is based in Bordeaux, France, and operates in 4 countries. It has 20 years of experience in the distribution of fine wines and spirits. Through a centralized sourcing, logistics and purchasing center, the ELAN Group distributes over 400 brands from 22 countries throughout Eurasia, with very strong market shares in the countries it operates in. It serves more than 4,000 customers, with over 2.5 million bottles sold.",
+            "card_sed_title": "A national multichannel company",
+            "card_sed_text": "CWS was created in 2006, and has built a very wide and strong network of customers across China in the On Trade, Wholesale, Digital, Private and Corporate channels throughout the years. With 5 offices and warehouses, CWS can ensure a very responsive, flexible and professional service for all its customers. Thanks to its presence in Shanghai, Beijing, Chengdu, Guangzhou and Shenzhen, CWS covers most of the first and second tier cities in China.",
+            "card_trd_title": "A complete portfolio",
+            "card_trd_text": "With a portfolio that includes over 150 wine and spirit brands and over 1,000 products, CWS has one of the most complete assortments of wines in Mainland China. From the most prestigious estates in the world to some hidden and carefully selected gems, CWS boasts products for all types of demands and channels. With products from France, Italy, Spain, Portugal, England, Scotland, Ireland, Germany, China, Chile, Argentina, USA, New Zealand, South Africa, Brazil and Cuba, to name some, CWS covers most of the wine and spirit producing countries in the world."
+        },
+        "brands": {
+            "title": "OUR BRANDS",
+            "title_c": "With 15 years of experience, we have 150 brands and more than 1000 products worldwide",
+            "wine":"Wine",
+            "liquor":"Spirits",
+            "drinks":"Water"
+        },
+        "service": {
+            "title": "OUR SERVICES",
+            "title_c": "Schwarz Trading (Shanghai) Co., LTD (CWS) strives to provide the best service to all its customers, from logistics to sales and marketing support.",
+            "card_fir_title": "From the cellar to your glass",
+            "card_fir_text": "We source our products directly from our partner wineries and distilleries to ensure that we offer our customers products straight out of the cellars. Our locally implanted and temperature controlled warehouses allow CWS to deliver to its customers quickly and efficiently under optimal conditions.",
+            "card_sed_title": "A passionate sales team",
+            "card_sed_text": "Through its experienced, professional and above all passionate sales team, CWS ensures its customers a dedicated follow up through competitive offers and bespoke services.",
+            "card_trd_title": "Dynamic marketing",
+            "card_trd_text": "CWS organizes wine related marketing events to support its customers many times per year (>80 a year), as well as mixology events (>100 a year) and several other tailor made services (menu design, wine and cocktail list creation, sommelier service, etc). CWS also organizes successful China-wide events, such as mixology contests or portfolio tastings."
+        },
+        "news": {
+            "title": "NEWS",
+            "title_c": "Deliver the latest brand information and news, such as event information and new product information",
+            "load_more": "Load More",
+            "details":"Learn More>"
+        },
+        "concat": {
+            "title": "CONCAT US",
+            "title_c": "In the world carefully selected high quality, good reputation, is committed to creating a first-class brand in the Chinese market",
+            "checkbox_1": "discuss business",
+            "checkbox_2": "Media",
+            "checkbox_3": "Job",
+            "checkbox_4": "Supplier",
+            "checkbox_5": "Consult",
+            "name": "Name",
+            "tel": "Phone",
+            "mail": "Email",
+            "country": "Country",
+            "region": "Region",
+            "info": "Information",
+            "submit": "Submit",
+            "kf_tel": "Service Tel",
+            "kf_mail": "General Email",
+            "redbook": "XiaoHongShu",
+            "weibo": "Weibo",
+            "wechat": "WeChat"
+        },
+        "tips": {
+            "input_name": "Please enter your name !",
+            "input_phone": "Please enter contact information !",
+            "input_phone_format": "Please enter the correct mobile or landline number in Mainland China !",
+            "input_mail": "Please enter email !",
+            "input_country": "Please enter country !",
+            "input_region": "Please enter region !",
+            "input_content": "Please enter information !",
+            "success": "Submission successful !",
+            "failed": "Submission failed !",
+            "screen_line_1": "Your device resolution is too low",
+            "screen_line_2": "Please replace the device to access",
+            "noprint_line_1": "The current page cannot be printed",
+            "brand_none": "Nothing ~",
+            "search_none": "Didn't find anything ~"
+        }
+    }
+}

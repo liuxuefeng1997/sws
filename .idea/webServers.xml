@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0142b9de-91b6-430b-b8a5-baecdf4a9dac" name="101_34_35_236" url="http://test.51vip.net.cn/sws/">
+        <fileTransfer rootFolder="/var/www/x1/sws" accessType="SFTP" host="101.34.35.236" port="22" sshConfigId="b4ee6a48-55b9-40a3-92ff-3eaf012f9d7c" sshConfig="root@101.34.35.236:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2aae99be-d72a-46b7-9e85-fdb6cac8744c" name="inc_test" url="http://dev1.mailx.top">
+        <fileTransfer host="106.14.117.33" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

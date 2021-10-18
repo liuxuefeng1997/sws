@@ -1,0 +1,24 @@
+{
+    "general": {
+        "news_sum_one_page": "6",
+        "kf_telephone": "021-60871811",
+        "kf_mail": "Vincent.Li@cws.wine",
+        "jd_store_link": "https://shop341125652.taobao.com/",
+        "tmall_store_link": "https://shop341125652.taobao.com/",
+        "redbook_link": "https://www.xiaohongshu.com/user/profile/5e8bf77e00000000010061c1?xhsshare=CopyLink&appuid=5e8bf77e00000000010061c1&apptime=1630032762",
+        "weibo_link": "https://weibo.com/cwschina",
+        "wechat_qrcode": "../img/qrcode.png",
+        "beian": "沪ICP备15040825号"
+    },
+    "api": {
+        "host": "https://sws.sh-yq.cn/index.php",
+        "banner_path": "/api/index/banner",
+        "news_path": "/api/news/lists",
+        "brand_class": "/api/Classify/lists",
+        "country_list": "/api/Country/lists",
+        "product_list": "/api/Product/lists",
+        "contact_path": "/api/contactUs/add",
+        "article": "/api/news/detail",
+        "product": "/api/product/detail"
+    }
+}
