@@ -24,7 +24,6 @@
                     BufferedReader bufferedReader = new BufferedReader(read);
                     String lineTXT;
                     while ((lineTXT = bufferedReader.readLine()) != null) {
-                        //out.print(lineTXT);
                         jsonstr.append(lineTXT);
                     }
                     read.close();
@@ -45,7 +44,6 @@
                     BufferedReader bufferedReader = new BufferedReader(read);
                     String lineTXT;
                     while ((lineTXT = bufferedReader.readLine()) != null) {
-                        //out.print(lineTXT);
                         jsonstr.append(lineTXT);
                     }
                     read.close();
@@ -56,7 +54,6 @@
                         BufferedReader bufferedReader = new BufferedReader(read);
                         String lineTXT;
                         while ((lineTXT = bufferedReader.readLine()) != null) {
-                            //out.print(lineTXT);
                             jsonstr.append(lineTXT);
                         }
                         read.close();
