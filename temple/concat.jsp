@@ -30,7 +30,11 @@
                 <!--左侧栏区域-->
                 <div class="container-fluid concat-form mb-3">
                     <form class="pt-3 pb-3" id="contact_form" name="contact_form" accept-charset="UTF-8">
+                        <% if(GeneralSettings.getBoolean("is_concat_form_class_show")){ %>
+                        <div class="row mb-3 mt-3 ms-2">
+                        <% } else { %>
                         <div class="row mb-3 mt-3 ms-2" style="display: none">
+                        <% } %>
                             <div class="form-check col">
                                 <input class="form-check-input" type="radio" name="type" id="flexRadioDefault1" value="1" checked>
                                 <label class="form-check-label" for="flexRadioDefault1">
@@ -192,6 +196,7 @@
             </div>
             <div class="col-4 concat-control">
                 <!--右侧栏区域-->
+                <% if(GeneralSettings.getBoolean("is_tel_show")){ %>
                 <div class="container-fluid concat-form mb-3">
                     <div class="container concat-card">
                         <div class="concat-card-title"><%=lang.getJsonObject("concat").getString("kf_tel")%></div>
@@ -221,6 +226,8 @@
                         </div>
                     </div>
                 </div>
+                <% } %>
+                <% if(GeneralSettings.getBoolean("is_mail_show")){ %>
                 <div class="container-fluid concat-form mb-3">
                     <div class="container concat-card">
                         <div class="concat-card-title"><%=lang.getJsonObject("concat").getString("kf_mail")%></div>
@@ -241,6 +248,8 @@
                         </div>
                     </div>
                 </div>
+                <% } %>
+                <% if(GeneralSettings.getBoolean("is_concat_icon_area_show")){ %>
                 <div class="container-fluid concat-form mb-3">
                     <div class="row concat-card-share">
                         <div class="col">
@@ -266,7 +275,7 @@
                         <div class="col"></div>
                     </div>
                 </div>
-
+                <% } %>
             </div>
         </div>
     </div>
