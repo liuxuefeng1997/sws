@@ -6,6 +6,9 @@
         <language minSize="52" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="EnhancedSwitchMigration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myWarnOnlyOnExpressionConversion" value="true" />
+    </inspection_tool>
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>

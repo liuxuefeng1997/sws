@@ -47,7 +47,6 @@
             }
             String _id = request.getParameter("route").replace("/article","").replace("/","");
             JsonObject _ti = lang.getJsonObject("footer");
-            JsonObject _in = lang.getJsonObject("license");
             switch (_id){
                 case "policy":
     %>
