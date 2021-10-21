@@ -419,7 +419,7 @@ html::-webkit-scrollbar,
 }
 .icon-list-box-country {
     width: 85px;
-    height: 92px;
+    height: 100px;
     position: relative;
     user-select: none;
 }
@@ -470,6 +470,9 @@ svg text,
     overflow-scrolling: touch;
     white-space: nowrap;
     display: inline-block;
+}
+div.container-fluid.icon-list-box {
+    border-bottom: 1px solid #ddd;
 }
 #country .btn {
     margin-right: 30px;
@@ -551,7 +554,7 @@ svg text,
 .ml-in {
     padding: 0;
     overflow: hidden;
-    max-height: 100%;
+    max-height: 723px;
 }
 .mr-in .img-box{
     height: 204px;
@@ -839,7 +842,8 @@ svg text,
         display: none;
     }
     .ml-in {
-        height: 280px;
+        height: 240px;
+        overflow: hidden;
     }
     .mr-in .img-box{
         height: 86px;
@@ -1010,7 +1014,7 @@ svg text,
     }
     .icon-list-box-country {
         width: 48px;
-        height: 57px;
+        height: 62px;
     }
     .icon-list-box-country h6 {
         font-size: 11px;

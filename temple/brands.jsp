@@ -74,7 +74,8 @@
                                     key_tag = "en_";
                                 }
                                 JsonObject _bc = JsonReader.getJsonObj(_bcj.get(i).toString());
-                                String imgUrl = _bc.getString("file_path");
+                                //String imgUrl = _bc.getString("file_path");
+                                String imgUrl = _bc.getString("url");
                                 String countryId = _bc.getInt("country_id") + "";
                                 String countryName = _bc.getString(key_tag + "name");
                         %>
@@ -245,7 +246,8 @@
         let data = _json.data;
         let inHtml = "";
         for(let i in data){
-            let imgUrl = data[i].file_path;
+            //let imgUrl = data[i].file_path;
+            let imgUrl = data[i].url;
             let countryId = data[i].country_id;
             let countryName = data[i][key_tag + "name"];
             let classifyBrand = 'classifyBrands(' + id + ',' + countryId + ')'
