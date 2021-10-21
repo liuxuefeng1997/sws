@@ -61,7 +61,7 @@
                href="#list-messages" id="list-messages-list" role="tab" onclick="changeCountryList(3);classifyBrands(3);"><%=lang.getJsonObject("brands").getString("drinks")%></a>
         </div>
         <!--国家展示-->
-        <div class="container-fluid icon-list-box">
+        <div class="container-fluid icon-list-box brand-country-border-bottom">
             <div class="btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="icon-list-box-country-out" id="country-out">
                     <div class="btn-group" role="group" aria-label="Basic" id="country">

@@ -471,7 +471,7 @@ svg text,
     white-space: nowrap;
     display: inline-block;
 }
-div.container-fluid.icon-list-box {
+div.container-fluid.icon-list-box.brand-country-border-bottom {
     border-bottom: 1px solid #ddd;
 }
 #country .btn {
