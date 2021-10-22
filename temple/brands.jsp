@@ -58,7 +58,22 @@
                href="#list-messages" id="list-messages-list" role="tab" onclick="changeCountryList(3);classifyBrands(3);"><%=lang.getJsonObject("brands").getString("drinks")%></a>
         </div>
         <!--国家展示-->
-        <div class="container-fluid icon-list-box brand-country-border-bottom">
+        <div class="container-fluid icon-list-box brand-country-border-bottom position-relative">
+            <div class="icon-list-box-country-button ilbcb-left pc-menu" onclick="bc_nex()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23.454" height="47.64" viewBox="0 0 23.454 47.64">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #313eec;
+                                stroke-linecap: round;
+                                stroke-width: 4px;
+                            }
+                        </style>
+                    </defs>
+                    <path id="jiantou" class="cls-1" d="M42,0,21,18,0,0" transform="translate(20.634 2.82) rotate(90)"/>
+                </svg>
+            </div>
             <div class="btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="icon-list-box-country-out" id="country-out">
                     <div class="btn-group" role="group" aria-label="Basic" id="country">
@@ -85,6 +100,21 @@
                         <%}%>
                     </div>
                 </div>
+            </div>
+            <div class="icon-list-box-country-button ilbcb-right pc-menu" onclick="bc_prv()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22.386" height="47.626" viewBox="0 0 22.386 47.626">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #313eec;
+                                stroke-linecap: round;
+                                stroke-width: 4px;
+                            }
+                        </style>
+                    </defs>
+                    <path id="jiantou" class="cls-1" d="M42,17,21,0,0,17" transform="translate(19.813 2.813) rotate(90)"/>
+                </svg>
             </div>
         </div>
         <!--切换内容-->
@@ -338,5 +368,11 @@
             //阻止默认事件
             return false;
         }
+    }
+    function bc_nex(){
+        document.getElementById("country-out").scrollLeft -= 100;
+    }
+    function bc_prv(){
+        document.getElementById("country-out").scrollLeft += 100;
     }
 </script>

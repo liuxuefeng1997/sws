@@ -464,12 +464,30 @@ svg text,
     text-align: center;
 }
 .icon-list-box-country-out {
-    width: calc(100% - 1rem);
+    width: calc(100% - 2.5rem);
     overflow: hidden;
     overflow-x: auto;
     overflow-scrolling: touch;
     white-space: nowrap;
     display: inline-block;
+}
+.icon-list-box-country-button {
+    position: absolute;
+    width: 24px;
+    line-height: 80px;
+    height: 114px;
+    top: 0;
+}
+.icon-list-box-country-button:hover {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.ilbcb-left {
+    left: 0;
+}
+.ilbcb-right {
+    right: 0;
 }
 div.container-fluid.icon-list-box.brand-country-border-bottom {
     border-bottom: 1px solid #ddd;
@@ -802,6 +820,9 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
     }
     .nav-fill .nav-item, .nav-fill>.nav-link {
         text-align: left;
+    }
+    .icon-list-box-country-out {
+        width: calc(100% - 1rem);
     }
     .concat .c-f-fix {
         margin-right: unset;
