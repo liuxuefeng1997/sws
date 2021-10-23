@@ -15,6 +15,9 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%!
     static class cfgreader {
+        public static String getFullPath(){
+            return Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("")).getPath().split("/WEB-INF/")[0].replace("file:","");
+        }
         public static String getConfigStr(String json_full_path) {
             StringBuilder jsonstr = new StringBuilder();
             try {

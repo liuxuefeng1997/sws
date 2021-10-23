@@ -11,8 +11,6 @@
 <%@ page import="java.util.Objects" %>
 <%--END-START--%>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%--加载核心设置--%>
-<%@ include file="../config/core.jsp"%>
 <%--加载插件--%>
 <%@ include file="lib/ConfigReader.jsp"%>
 <%@ include file="lib/HttpLoader.jsp"%>
@@ -23,6 +21,8 @@
     配置文件加载
 --%>
 <%
+    String webroot = cfgreader.getFullPath();
+    
     String config_path = webroot + "/config";
     JsonObject _config = JsonReader.getJsonObj(cfgreader.getConfigStr(config_path + "/setting.json"));
     JsonObject GeneralSettings = _config.getJsonObject("general");
