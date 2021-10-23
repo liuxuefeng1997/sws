@@ -5,12 +5,12 @@
 ## 部署说明
 <p style="font-size: 18px">
     本项目推荐通过
-    <span style="font-weight: bold;color: #954F72">**宝塔**</span>
+    <span style="font-weight: bold;color: #954F72">宝塔</span>
     部署
 </p>
 <p style="font-size: 18px">
     部署时必须开启 
-    <span style="font-weight: bold;color: #954F72">**Tomcat**</span> 
+    <span style="font-weight: bold;color: #954F72">Tomcat</span> 
     以支持JSP访问
 </p>
 
