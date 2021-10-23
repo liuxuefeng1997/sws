@@ -2,6 +2,18 @@
 <p style="font-size: 18px">简单的JSP模板实现</p>
 <p style="font-size: 18px">前端框架采用 Bootstrap 5 ，基于 OpenJDK 17 开发</p>
 
+## 部署说明
+<p style="font-size: 18px">
+    本项目推荐通过
+    <span style="font-weight: bold;color: #954F72">宝塔</span>
+    部署
+</p>
+<p style="font-size: 18px">
+    部署时必须开启 
+    <span style="font-weight: bold;color: #954F72">Tomcat</span> 
+    以支持JSP访问
+</p>
+
 ## 配置文件说明
 ### 路径：【/config/setting.json】
 <pre type="json">
