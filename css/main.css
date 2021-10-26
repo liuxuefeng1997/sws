@@ -884,6 +884,9 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
     .footer .row{
         --bs-gutter-x: none;
     }
+    .m-fix {
+        margin-top: -80px;
+    }
 }
 @media screen and (min-width: 961px) {
     .mlogo {

@@ -65,7 +65,7 @@
         info.innerHTML = info.innerText;
         document.getElementById("aLogo").setAttribute("src",_json.data.file_path);
         let ppt_element = document.getElementById("ppt");
-        let temple_ppt = '<div class="{{{ClassNames}}}"><img src="{{{ImgUrl}}}" class="d-block w-100" alt="..."></div>';
+        let temple_ppt = '<div class="{{{ClassNames}}}"><img src="{{{ImgUrl}}}" class="d-block w-100 m-fix" alt="..."></div>';
         let inHtml = "";
         let ppt_array = _json.data.image_list;
         for (let i in ppt_array){

@@ -20,9 +20,7 @@
     <orderEntry type="library" name="bootstrap-icons" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
-    <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="bootstrap-icons" level="application" />
-    <orderEntry type="library" name="swiper-bundle" level="application" />
     <orderEntry type="library" name="tomcat-api" level="project" />
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="annotations-api" level="project" />
