@@ -787,7 +787,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
         margin-top: -100px;
     }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1199px){
     .m-fix {
         margin-top: unset;
     }
