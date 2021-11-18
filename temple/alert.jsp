@@ -12,7 +12,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-7 ml-in text-center bg-dark" id="aImgBg">
+                    <div class="col-7 ml-in text-center" id="aImgBg">
                         <div id="carouselExampleControls" class="carousel slide h-100 overflow-hidden" data-bs-ride="carousel">
                             <div class="carousel-inner" id="ppt">
                                 <div class="carousel-item active">
