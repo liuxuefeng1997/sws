@@ -60,11 +60,11 @@
             "title_c": "With 15 years of experience, we have 150 brands and more than 1000 products worldwide",
             "wine":"Wine",
             "liquor":"Spirits",
-            "drinks":"Water"
+            "drinks":"Beverages"
         },
         "service": {
             "title": "OUR SERVICES",
-            "title_c": "China Wines & Spirits (CWS) strives to provide the best service to all its customers, from logistics to sales and marketing support.",
+            "title_c": "China Wines & Spirits (CWS) strives to offer to all of its customers the very best service, from logistics to sales and marketing support.",
             "card_fir_title": "From the cellar to your glass",
             "card_fir_text": "We source our products directly from our partner wineries and distilleries to ensure that we offer our customers products straight out of the cellars. Our locally implanted and temperature controlled warehouses allow CWS to deliver to its customers quickly and efficiently under optimal conditions.",
             "card_sed_title": "A passionate sales team",
@@ -74,13 +74,13 @@
         },
         "news": {
             "title": "NEWS",
-            "title_c": "Deliver the latest brand information and news, such as event information and new product information",
+            "title_c": "Constant update of our Wechat Article, Red Book Post, etc.",
             "load_more": "Load More",
             "details":"Learn More>"
         },
         "concat": {
             "title": "CONCAT US",
-            "title_c": "In the world carefully selected high quality, good reputation, is committed to creating a first-class brand in the Chinese market",
+            "title_c": "Online Form + Office address / phone",
             "checkbox_1": "discuss business",
             "checkbox_2": "Media",
             "checkbox_3": "Job",
