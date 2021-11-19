@@ -35,7 +35,7 @@
         <div class="container text-center index-aera-btitle">
             <%=time%>
         </div>
-        <div class="container-fluid c-f-fix inner-box-f" id="article"><%=html%></div>
+        <div class="container-fluid inner-box-f" id="article"><%=html%></div>
         <script>
             //解决直接赋值富文本未解析的问题
             document.getElementById("article").innerHTML = document.getElementById("article").innerText;
@@ -83,3 +83,18 @@
     <% break; }} %>
     <!--内容区 End-->
 </div>
+<style>
+    @media screen and (max-width: 960px){
+        .index-aera-title {
+            font-size: 16px;
+            height: unset;
+            overflow: hidden;
+            line-height: 18px;
+            margin: 15px auto;
+        }
+        #article {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+</style>
