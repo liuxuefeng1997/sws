@@ -21,9 +21,11 @@
     <div class="container text-center index-aera-title">
         <%=lang.getJsonObject("about").getString("title")%>
     </div>
+    <% if(!Objects.equals(lang.getJsonObject("about").getString("title_c"), "")){ %>
     <div class="container text-center index-aera-btitle">
         <%=lang.getJsonObject("about").getString("title_c")%>
     </div>
+    <% } %>
     <div class="container-fluid c-f-fix inner-box-f">
         <!--PC端关于我们-->
         <svg class="p-card" viewBox="0 0 1380 1411.07" width="100%" xmlns="http://www.w3.org/2000/svg">
@@ -116,9 +118,10 @@
             </svg>
         </svg>
         <!--移动端关于我们-->
-        <div class="container-fluid m-card">
+        <div class="m-card">
             <div class="about-box-card">
                 <div class="about-box-title-mobile"><%=lang.getJsonObject("about").getString("card_fir_title")%></div>
+                <hr>
                 <div class="about-box-text-mobile">
                     <%=lang.getJsonObject("about").getString("card_fir_text")%>
                 </div>
@@ -128,6 +131,7 @@
             </div>
             <div class="about-box-card">
                 <div class="about-box-title-mobile"><%=lang.getJsonObject("about").getString("card_sed_title")%></div>
+                <hr>
                 <div class="about-box-text-mobile">
                     <%=lang.getJsonObject("about").getString("card_sed_text")%>
                 </div>
@@ -137,6 +141,7 @@
             </div>
             <div class="about-box-card">
                 <div class="about-box-title-mobile"><%=lang.getJsonObject("about").getString("card_trd_title")%></div>
+                <hr>
                 <div class="about-box-text-mobile">
                     <%=lang.getJsonObject("about").getString("card_trd_text")%>
                 </div>

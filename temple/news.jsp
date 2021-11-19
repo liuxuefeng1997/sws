@@ -21,9 +21,11 @@
     <div class="container text-center index-aera-title">
         <%=lang.getJsonObject("news").getString("title")%>
     </div>
+    <% if(!Objects.equals(lang.getJsonObject("news").getString("title_c"), "")){ %>
     <div class="container text-center index-aera-btitle">
         <%=lang.getJsonObject("news").getString("title_c")%>
     </div>
+    <% } %>
     <!--新闻与活动-新闻卡片区域-->
     <div class="container-fluid news-era">
         <!--新闻与活动-新闻卡片区域定位元素-->

@@ -21,9 +21,11 @@
     <div class="container text-center index-aera-title">
         <%=lang.getJsonObject("concat").getString("title")%>
     </div>
+    <% if(!Objects.equals(lang.getJsonObject("concat").getString("title_c"), "")){ %>
     <div class="container text-center index-aera-btitle">
         <%=lang.getJsonObject("concat").getString("title_c")%>
     </div>
+    <% } %>
     <div class="container inner-box-f concat">
         <div class="container-fluid c-f-fix row">
             <div class="col-8 concat-control">

@@ -225,7 +225,7 @@ html::-webkit-scrollbar,
     top: 0;
 }
 .banner .carousel-caption-out .carousel-caption-in {
-    background: rgba(255,255,255,0.2);
+    background: rgba(0,0,0,0.2);
     width: 530px;
     text-align: center;
     color: #FFFFFF;
@@ -374,6 +374,7 @@ html::-webkit-scrollbar,
     font-weight: 400;
     line-height: 36px;
     margin-top: 15px;
+    text-align: center;
 }
 .about-box-image-mobile {
     width: 100%;
@@ -902,6 +903,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
     .mr-in .img-box{
         height: 86px;
         line-height: 86px;
+        margin-top: 2rem !important;
     }
     .mr-in .img-box img {
         max-height: 71px;
@@ -909,6 +911,19 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
     }
     .ml-in,.mr-in {
         width: 100%;
+    }
+    .modal-body-title {
+        line-height: 50px;
+        height: 60px;
+    }
+    .modal-inner {
+        height: 280px;
+    }
+    .modal-body-text p{
+        text-align: center;
+    }
+    .brand-icon-title {
+        font-size: 10px;
     }
     .footer .col{
         width: 100%;

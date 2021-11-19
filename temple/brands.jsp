@@ -21,9 +21,11 @@
     <div class="container text-center index-aera-title">
         <%=lang.getJsonObject("brands").getString("title")%>
     </div>
+    <% if(!Objects.equals(lang.getJsonObject("brands").getString("title_c"), "")){ %>
     <div class="container text-center index-aera-btitle">
         <%=lang.getJsonObject("brands").getString("title_c")%>
     </div>
+    <% } %>
     <div class="inner-box-f">
         <!--切换按钮-->
         <%

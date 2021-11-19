@@ -307,19 +307,19 @@
     <div class="container index-po">
         <div class="row">
             <div class="col po-card">
-                <div class="po-card-bg" style="background: url('../img/index-p-1.png'); background-size: 100% auto;"></div>
+                <div class="po-card-bg" style="background: url('../img/index-p-1.png') center; background-size: 100% auto;"></div>
                 <div class="po-card-ctr" onclick="window.open('./?route=/brands/&lang=<%=lang_type%>&c=1','_self')">
                     <div class="po-card-ctr-title"><%=lang.getJsonObject("home").getString("wine")%></div>
                 </div>
             </div>
             <div class="col po-card">
-                <div class="po-card-bg" style="background: url('../img/index-p-2.png'); background-size: 100% auto;"></div>
+                <div class="po-card-bg" style="background: url('../img/index-p-2.png') center; background-size: 100% auto;"></div>
                 <div class="po-card-ctr" onclick="window.open('./?route=/brands/&lang=<%=lang_type%>&c=2','_self')">
                     <div class="po-card-ctr-title"><%=lang.getJsonObject("home").getString("liquor")%></div>
                 </div>
             </div>
             <div class="col po-card">
-                <div class="po-card-bg" style="background: url('../img/index-p-3.png'); background-size: 100% auto;"></div>
+                <div class="po-card-bg" style="background: url('../img/index-p-3.png') center; background-size: 100% auto;"></div>
                 <div class="po-card-ctr" onclick="window.open('./?route=/brands/&lang=<%=lang_type%>&c=3','_self')">
                     <div class="po-card-ctr-title"><%=lang.getJsonObject("home").getString("drinks")%></div>
                 </div>

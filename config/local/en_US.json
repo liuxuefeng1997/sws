@@ -9,13 +9,13 @@
             "our_brands":"Portfolio",
             "wine":"Wine",
             "liquor":"Spirits",
-            "drinks":"Water",
+            "drinks":"SOFT DRINKS",
             "details":"Learn More>",
             "our_service":"Our Services",
             "online_shop":"Online Stores",
-            "jd_shop":"JD stores",
+            "jd_shop":"JD Store",
             "shop_details": "Visit store>",
-            "tm_shop":"Tmall stores",
+            "tm_shop":"Taobao Store",
             "news_center":"News Center",
             "concat_us":"Contact Us",
             "keyword": "Keyword"
@@ -43,11 +43,11 @@
             "portfolio_c": "In the world carefully selected high quality, good reputation, is committed to creating a first-class brand in the Chinese market",
             "wine":"Wine",
             "liquor":"Spirits",
-            "drinks":"Water"
+            "drinks":"SOFT DRINKS"
         },
         "about": {
             "title": "ABOUT US",
-            "title_c": "With 15 years of experience, we have 150 brands and more than 1000 products worldwide",
+            "title_c": "",
             "card_fir_title": " 20 years of experience",
             "card_fir_text": "China Wines & Spirits (CWS) is a subsidiary of the ELAN Group. The ELAN Group is based in Bordeaux, France, and operates in 4 countries. It has 20 years of experience in the distribution of fine wines and spirits. Through a centralized sourcing, logistics and purchasing center, the ELAN Group distributes over 400 brands from 22 countries throughout Eurasia, with very strong market shares in the countries it operates in. It serves more than 4,000 customers, with over 2.5 million bottles sold.",
             "card_sed_title": "A national multichannel company",
@@ -57,10 +57,10 @@
         },
         "brands": {
             "title": "OUR BRANDS",
-            "title_c": "With 15 years of experience, we have 150 brands and more than 1000 products worldwide",
+            "title_c": "",
             "wine":"Wine",
             "liquor":"Spirits",
-            "drinks":"Beverages"
+            "drinks":"SOFT DRINKS"
         },
         "service": {
             "title": "OUR SERVICES",
@@ -79,8 +79,8 @@
             "details":"Learn More>"
         },
         "concat": {
-            "title": "CONCAT US",
-            "title_c": "Online Form + Office address / phone",
+            "title": "CONTACT US",
+            "title_c": "",
             "checkbox_1": "discuss business",
             "checkbox_2": "Media",
             "checkbox_3": "Job",
