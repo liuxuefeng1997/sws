@@ -141,16 +141,12 @@
     }
 
     .thumbnail {
-        width: 100%;
+        width: 98%;
     }
 
     .column {
         width: 100%;
         margin-top: 0px;
-    }
-
-    .thumbnail {
-        width: 100%;
     }
 
     .text_column {
