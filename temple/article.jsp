@@ -95,6 +95,7 @@
         #article {
             padding-left: 0;
             padding-right: 0;
+            text-align: center;
         }
     }
 </style>
