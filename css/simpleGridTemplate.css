@@ -7,8 +7,8 @@
     background-color: #FFFFFF;
     /*min-width: 400px;*/
     padding-bottom: 35px;
-    padding-top: 0px;
-    margin-bottom: 0px;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 .text_column {
@@ -108,7 +108,7 @@
 
     .intro .column p {
         width: 80%;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .text_column {
@@ -121,7 +121,7 @@
 
     .column {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .hero_header {
@@ -146,7 +146,7 @@
 
     .column {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .text_column {
@@ -158,8 +158,8 @@
 
     .column {
         width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .profile {
@@ -169,7 +169,7 @@
     .intro .column p {
         width: 90%;
         text-align: center;
-        padding-left: 0px;
+        padding-left: 0;
     }
     .gallery .thumbnail h4 {
         margin-top: 0.5em;
