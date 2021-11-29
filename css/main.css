@@ -210,7 +210,7 @@ html::-webkit-scrollbar,
     top: calc(50% - 32px);
 }
 .banner {
-    --banner-height: 525px;
+    --banner-height: 420px;
     max-height: var(--banner-height);
     height: var(--banner-height);
     z-index: 100;
@@ -757,7 +757,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
 }
 @media screen and (max-width: 1280px) {
     .banner {
-        --banner-height: 395px;
+        --banner-height: 329px;
     }
     .banner .carousel-caption-out .carousel-caption-in {
         right: 7.5em;
@@ -891,7 +891,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
         padding-right: 20px;
     }
     .banner {
-        max-height: 580px;
+        max-height: 300px;
     }
     .banner .carousel-caption-out{
         display: none;
@@ -1005,7 +1005,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
         height: 80px;
     }
     .banner {
-        max-height: 480px;
+        max-height: 240px;
     }
     .footer-nav-li {
         width: 100%;
@@ -1055,7 +1055,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
 }
 @media screen and (max-width: 767px) {
     .banner {
-        max-height: 270px;
+        max-height: 155px;
     }
     .p-card {
         display: none;
@@ -1111,7 +1111,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
 }
 @media screen and (max-width: 480px) {
     .banner {
-        max-height: 240px;
+        max-height: 130px;
     }
     #country .btn {
         margin-right: 12px;
@@ -1119,7 +1119,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
 }
 @media screen and (max-width: 414px) {
     .banner {
-        max-height: 220px;
+        max-height: 120px;
     }
     .load-more-button {
         width: 340px;
@@ -1146,7 +1146,7 @@ div.container-fluid.icon-list-box.brand-country-border-bottom {
 }
 @media screen and (max-width: 375px) {
     .banner {
-        max-height: 185px;
+        max-height: 110px;
     }
     .news-page {
         width: 300px;

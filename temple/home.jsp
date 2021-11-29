@@ -281,11 +281,53 @@
                     JsonObject news = JsonReader.getJsonObj(_nj.get(i).toString());
             %>
                     <!--首页-新闻与活动-新闻卡片<%=i + 1 + ""%>-->
-                    <div class="thumbnail"> <a href="./?route=/article/<%=news.getInt("news_id") + ""%>/"><img src="<%=news.getString("file_path")%>" alt="" width="2000" class="cards"/></a>
-                        <h4 style="padding-left: 0;"><%=news.getString(key_tag + "name")%></h4>
+                    <div class="thumbnail">
+                        <a href="./?route=/article/<%=news.getInt("news_id") + ""%>/">
+                            <img src="<%=news.getString("file_path")%>" alt="" width="2000" class="cards"/>
+                        </a>
+                        <h4 style="padding-left: 0;"><%=news.getString(key_tag + "name").length() > 25 ? news.getString(key_tag + "name").substring(0,25) + "..." : news.getString(key_tag + "name")%></h4>
                         <p class="text_column" style="padding-left: 0;"><%=news.getString(key_tag + "sn")%></p>
                     </div>
             <%}%>
+            <style>
+                @media screen and (max-width: 768px){
+                    .thumbnail img {
+                        width: 40%;
+                        float: left;
+                    }
+                    .thumbnail p {
+                        display: none;
+                    }
+                    .thumbnail h4 {
+                        margin-left: 10px;
+                        width: calc(60% - 10px);
+                        float: left;
+                        height: 75px;
+                        overflow: hidden;
+                    }
+                    .gallery .thumbnail h4 {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    .thumbnail {
+                        width: 100%;
+                        max-width: unset;
+                    }
+                }
+                .thumbnail p {
+                    line-height: 30px;
+                }
+                .gallery .thumbnail h4 {
+                    margin-bottom: 0.2em;
+                }
+                .thumbnail {
+                    max-height: 350px;
+                    overflow: hidden;
+                }
+                .text_column {
+                    height: unset;
+                }
+            </style>
         </div>
     </div>
     <!--首页-新闻与活动-加载更多-->
