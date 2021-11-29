@@ -7,9 +7,9 @@
             "menu":"Menu",
             "about_us":"About Us",
             "our_brands":"Portfolio",
-            "wine":"Wine",
+            "wine":"Wines",
             "liquor":"Spirits",
-            "drinks":"SOFT DRINKS",
+            "drinks":"Soft Drinks",
             "details":"Learn More>",
             "our_service":"Our Services",
             "online_shop":"Online Stores",
@@ -37,30 +37,30 @@
             "brands": "Brands",
             "products": "Products",
             "news": "News",
-            "news_c": "Deliver the latest brand information and news, such as event information and new product information",
+            "news_c": "Follow our latest news!",
             "read_more": "Read More",
             "portfolio": "Portfolio",
-            "portfolio_c": "In the world carefully selected high quality, good reputation, is committed to creating a first-class brand in the Chinese market",
-            "wine":"Wine",
+            "portfolio_c": "Discover our wines and spirits, carefully selected around the world.",
+            "wine":"Wines",
             "liquor":"Spirits",
-            "drinks":"SOFT DRINKS"
+            "drinks":"Soft Drinks"
         },
         "about": {
             "title": "ABOUT US",
             "title_c": "",
-            "card_fir_title": " 20 years of experience",
+            "card_fir_title": " 15 years of experience",
             "card_fir_text": "China Wines & Spirits (CWS) is a subsidiary of the ELAN Group. The ELAN Group is based in Bordeaux, France, and operates in 4 countries. It has 20 years of experience in the distribution of fine wines and spirits. Through a centralized sourcing, logistics and purchasing center, the ELAN Group distributes over 400 brands from 22 countries throughout Eurasia, with very strong market shares in the countries it operates in. It serves more than 4,000 customers, with over 2.5 million bottles sold.",
             "card_sed_title": "A national multichannel company",
-            "card_sed_text": "CWS was created in 2006, and has built a very wide and strong network of customers across China in the On Trade, Wholesale, Digital, Private and Corporate channels throughout the years. With 5 offices and warehouses, CWS can ensure a very responsive, flexible and professional service for all its customers. Thanks to its presence in Shanghai, Beijing, Chengdu, Guangzhou and Shenzhen, CWS covers most of the first and second tier cities in China.",
+            "card_sed_text": "CWS was created in 2006, and has built a very wide and strong network of customers across China in the On Trade, Wholesale, Digital, Private and Corporate channels throughout the years. With 6 offices and 5 warehouses, CWS can ensure a very responsive, flexible and professional service for all its customers. Thanks to its presence in Shanghai, Beijing, Chengdu, Guangzhou and Shenzhen, CWS covers most of the first and second tier cities in China.",
             "card_trd_title": "A complete portfolio",
             "card_trd_text": "With a portfolio that includes over 150 wine and spirit brands and over 1,000 products, CWS has one of the most complete assortments of wines in Mainland China. From the most prestigious estates in the world to some hidden and carefully selected gems, CWS boasts products for all types of demands and channels. With products from France, Italy, Spain, Portugal, England, Scotland, Ireland, Germany, China, Chile, Argentina, USA, New Zealand, South Africa, Brazil and Cuba, to name some, CWS covers most of the wine and spirit producing countries in the world."
         },
         "brands": {
             "title": "OUR BRANDS",
             "title_c": "",
-            "wine":"Wine",
+            "wine":"Wines",
             "liquor":"Spirits",
-            "drinks":"SOFT DRINKS"
+            "drinks":"Soft Drinks"
         },
         "service": {
             "title": "OUR SERVICES",
@@ -74,7 +74,7 @@
         },
         "news": {
             "title": "NEWS",
-            "title_c": "Constant update of our Wechat Article, Red Book Post, etc.",
+            "title_c": "Follow our latest news!",
             "load_more": "Load More",
             "details":"Learn More>"
         },
