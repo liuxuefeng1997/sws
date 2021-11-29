@@ -20,9 +20,14 @@
 <%--
     配置文件加载
 --%>
+<%!
+    public static String getFullPath(){
+        return (Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("")).getPath().replace("file:",""));
+    }
+%>
 <%
     String webroot = cfgreader.getFullPath();
-    
+
     String config_path = webroot + "/config";
     JsonObject _config = JsonReader.getJsonObj(cfgreader.getConfigStr(config_path + "/setting.json"));
     JsonObject GeneralSettings = _config.getJsonObject("general");
