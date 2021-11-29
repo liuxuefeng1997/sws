@@ -20,11 +20,6 @@
 <%--
     配置文件加载
 --%>
-<%!
-    public static String getFullPath(){
-        return (Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("")).getPath().replace("file:",""));
-    }
-%>
 <%
     String webroot = cfgreader.getFullPath();
 
