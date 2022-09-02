@@ -13,13 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script charset="UTF-8" src="../js/lx.js?v=<%=Timer.getNowTimeStr(10)%>" type="text/javascript"></script>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/simpleGridTemplate.css?v=<%=Timer.getNowTimeStr(10)%>">
     <!-- JQuery 3.6.0 -->
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
     <script charset="UTF-8" src="../js/numberRock.js" type="text/javascript"></script>
     <!--自定义脚本及样式-->
     <link charset="UTF-8" href="../css/main.css?v=<%=Timer.getNowTimeStr(10)%>" rel="stylesheet" type="text/css">
